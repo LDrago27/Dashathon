@@ -1,0 +1,1626 @@
+{
+    "ok": true,
+    "latest_updates": {
+        "1735331705.699049": "1735671385.002500",
+        "1734528025.282949": "1734637858.003400",
+        "1734499389.248389": "1734499437.003100",
+        "1734345836.290929": "1735281311.002000",
+        "1734189133.365319": "1736270418.000600",
+        "1734080708.393369": "1734080708.393369",
+        "1733997171.271689": "1734031450.001800",
+        "1732548385.374719": "1734022454.001100",
+        "1731431451.976629": "1732802724.007000",
+        "1730797011.678409": "1732569239.005300",
+        "1730440342.314969": "1732308545.003200",
+        "1729878694.652209": "1730497907.001400",
+        "1729872983.450909": "1729872983.450909",
+        "1729812569.280669": "1732595855.006100",
+        "1729077110.165719": "1729154652.001000",
+        "1729023141.626659": "1729269651.002300",
+        "1728990280.650739": "1728990288.001500",
+        "1728946741.907999": "1728946741.907999",
+        "1728892814.775579": "1729012218.001900",
+        "1728835904.693759": "1728835906.000800",
+        "1728832448.242149": "1728832449.000700"
+    },
+    "unchanged_messages": [],
+    "messages": [{
+            "user": "U086L59MHQV",
+            "type": "message",
+            "ts": "1735331705.699049",
+            "client_msg_id": "e60c6976-fe20-47a6-9019-da09fcef5560",
+            "text": "Hi there, is there a way to configure text analysis settings via the OpenSearch Dashboard?\n\nex.\n```\"settings\": {\n      \"analysis\": {\n        \"filter\": {\n          \"edge_ngram_filter\": {\n            \"type\": \"edge_ngram\",\n            \"min_gram\": 1,\n            \"max_gram\": 30\n          },\n....```",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1735331705.699049",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1735671385.910809",
+            "reply_users": [
+                "U0514F78EG7"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "Pdd8Z",
+                "elements": [{
+                        "type": "rich_text_section",
+                        "elements": [{
+                            "type": "text",
+                            "text": "Hi there, is there a way to configure text analysis settings via the OpenSearch Dashboard?\n\nex.\n"
+                        }]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [{
+                            "type": "text",
+                            "text": "\"settings\": {\n      \"analysis\": {\n        \"filter\": {\n          \"edge_ngram_filter\": {\n            \"type\": \"edge_ngram\",\n            \"min_gram\": 1,\n            \"max_gram\": 30\n          },\n...."
+                        }],
+                        "border": 0
+                    }
+                ]
+            }]
+        },
+        {
+            "user": "U05QY614LSZ",
+            "type": "message",
+            "ts": "1734528025.282949",
+            "client_msg_id": "088af532-2232-4a45-8a7e-4a49d53c2e68",
+            "text": "Hello, is there any way to make pre-calculated queries? As they are done in databases called views.",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1734528025.282949",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1734637858.253369",
+            "reply_users": [
+                "U051Z9QLW9F"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "vGBxS",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "Hello, is there any way to make pre-calculated queries? As they are done in databases called views."
+                    }]
+                }]
+            }]
+        },
+        {
+            "user": "U085MTBTMJ5",
+            "type": "message",
+            "ts": "1734499389.248389",
+            "edited": {
+                "user": "U085MTBTMJ5",
+                "ts": "1734499437.000000"
+            },
+            "client_msg_id": "a9c529bd-7b0d-49aa-b85f-c38f4ca3b34b",
+            "text": "> Hi Team,\n> I want to use query insights dashboard plugin with Opensearch Dashboard 2.18 - I don\u2019t see any version specific branch in query insights dashboard plugin github <https:\/\/github.com\/opensearch-project\/query-insights-dashboards\/tree\/main?tab=readme-ov-file|repo> (which is generally the case for other plugins) - Does it mean that the main branch is compatible with all versions of OSD? If not, can anyone please suggest what steps do I need to take to integrate this plugin with OSD 2.18?\nHi Team,\nDoes anyone have any update on this?",
+            "team": "T01QQ0Q5GMA",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "Z3HYL",
+                "elements": [{
+                        "type": "rich_text_quote",
+                        "elements": [{
+                                "type": "text",
+                                "text": "Hi Team,\nI want to use query insights dashboard plugin with Opensearch Dashboard 2.18 - I don\u2019t see any version specific branch in query insights dashboard plugin github "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/opensearch-project\/query-insights-dashboards\/tree\/main?tab=readme-ov-file",
+                                "text": "repo"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (which is generally the case for other plugins) - Does it mean that the main branch is compatible with all versions of OSD? If not, can anyone please suggest what steps do I need to take to integrate this plugin with OSD 2.18?"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [{
+                            "type": "text",
+                            "text": "Hi Team,\nDoes anyone have any update on this?"
+                        }]
+                    }
+                ]
+            }]
+        },
+        {
+            "user": "U085MTBTMJ5",
+            "type": "message",
+            "ts": "1734345836.290929",
+            "edited": {
+                "user": "U085MTBTMJ5",
+                "ts": "1734346080.000000"
+            },
+            "client_msg_id": "6e99da36-759e-4597-8279-5be2c1b62e33",
+            "text": "Hi Team,\nI want to use query insights dashboard plugin with Opensearch Dashboard 2.18 - I don't see any version specific branch in query insights dashboard plugin github <https:\/\/github.com\/opensearch-project\/query-insights-dashboards\/tree\/main?tab=readme-ov-file|repo> (which is generally the case for other plugins) - Does it mean that the main branch is compatible with all versions of OSD? If not, can anyone please suggest what steps do I need to take to integrate this plugin with OSD 2.18?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1734345836.290929",
+            "reply_count": 3,
+            "reply_users_count": 3,
+            "latest_reply": "1735281311.114779",
+            "reply_users": [
+                "U0545TTFN2Z",
+                "U05TTKG4X9B",
+                "U085MTBTMJ5"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "Js4HF",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi Team,\nI want to use query insights dashboard plugin with Opensearch Dashboard 2.18 - I don't see any version specific branch in query insights dashboard plugin github "
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/github.com\/opensearch-project\/query-insights-dashboards\/tree\/main?tab=readme-ov-file",
+                            "text": "repo"
+                        },
+                        {
+                            "type": "text",
+                            "text": " (which is generally the case for other plugins) - Does it mean that the main branch is compatible with all versions of OSD? If not, can anyone please suggest what steps do I need to take to integrate this plugin with OSD 2.18?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "text": "I am running Opensearch Dashboards 2.17.1 and I created Observability Notebooks. I can see them in Saved Objects but not in the Notebooks space. Can you point me to what might be the issue.",
+            "files": [{
+                    "id": "F084Y5C4V2S",
+                    "created": 1734189090,
+                    "timestamp": 1734189090,
+                    "name": "Screenshot 2024-12-14 at 5.11.17\u202fPM.png",
+                    "title": "Screenshot 2024-12-14 at 5.11.17\u202fPM.png",
+                    "mimetype": "image\/png",
+                    "filetype": "png",
+                    "pretty_type": "PNG",
+                    "user": "U0782E70F24",
+                    "user_team": "T01QQ0Q5GMA",
+                    "editable": false,
+                    "size": 73203,
+                    "mode": "hosted",
+                    "is_external": false,
+                    "external_type": "",
+                    "is_public": true,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https:\/\/files.slack.com\/files-pri\/T01QQ0Q5GMA-F084Y5C4V2S\/screenshot_2024-12-14_at_5.11.17___pm.png",
+                    "url_private_download": "https:\/\/files.slack.com\/files-pri\/T01QQ0Q5GMA-F084Y5C4V2S\/download\/screenshot_2024-12-14_at_5.11.17___pm.png",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_64.png",
+                    "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_80.png",
+                    "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_360.png",
+                    "thumb_360_w": 360,
+                    "thumb_360_h": 113,
+                    "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_480.png",
+                    "thumb_480_w": 480,
+                    "thumb_480_h": 151,
+                    "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_160.png",
+                    "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_720.png",
+                    "thumb_720_w": 720,
+                    "thumb_720_h": 226,
+                    "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_800.png",
+                    "thumb_800_w": 800,
+                    "thumb_800_h": 251,
+                    "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_960.png",
+                    "thumb_960_w": 960,
+                    "thumb_960_h": 301,
+                    "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5C4V2S-9f06917012\/screenshot_2024-12-14_at_5.11.17___pm_1024.png",
+                    "thumb_1024_w": 1024,
+                    "thumb_1024_h": 321,
+                    "original_w": 1631,
+                    "original_h": 512,
+                    "thumb_tiny": "AwAPADDQxzzmnYpaKAExRilpCDQAYoxQM96WgD\/\/2Q==",
+                    "permalink": "https:\/\/opensearch.slack.com\/files\/U0782E70F24\/F084Y5C4V2S\/screenshot_2024-12-14_at_5.11.17___pm.png",
+                    "permalink_public": "https:\/\/slack-files.com\/T01QQ0Q5GMA-F084Y5C4V2S-f9dd6e2f3c",
+                    "is_starred": false,
+                    "has_rich_preview": false,
+                    "file_access": "visible"
+                },
+                {
+                    "id": "F084Y5D09SS",
+                    "created": 1734189127,
+                    "timestamp": 1734189127,
+                    "name": "Screenshot 2024-12-14 at 5.11.53\u202fPM.png",
+                    "title": "Screenshot 2024-12-14 at 5.11.53\u202fPM.png",
+                    "mimetype": "image\/png",
+                    "filetype": "png",
+                    "pretty_type": "PNG",
+                    "user": "U0782E70F24",
+                    "user_team": "T01QQ0Q5GMA",
+                    "editable": false,
+                    "size": 86721,
+                    "mode": "hosted",
+                    "is_external": false,
+                    "external_type": "",
+                    "is_public": true,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https:\/\/files.slack.com\/files-pri\/T01QQ0Q5GMA-F084Y5D09SS\/screenshot_2024-12-14_at_5.11.53___pm.png",
+                    "url_private_download": "https:\/\/files.slack.com\/files-pri\/T01QQ0Q5GMA-F084Y5D09SS\/download\/screenshot_2024-12-14_at_5.11.53___pm.png",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_64.png",
+                    "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_80.png",
+                    "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_360.png",
+                    "thumb_360_w": 360,
+                    "thumb_360_h": 110,
+                    "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_480.png",
+                    "thumb_480_w": 480,
+                    "thumb_480_h": 147,
+                    "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_160.png",
+                    "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_720.png",
+                    "thumb_720_w": 720,
+                    "thumb_720_h": 221,
+                    "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_800.png",
+                    "thumb_800_w": 800,
+                    "thumb_800_h": 245,
+                    "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_960.png",
+                    "thumb_960_w": 960,
+                    "thumb_960_h": 294,
+                    "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F084Y5D09SS-2a236bec3f\/screenshot_2024-12-14_at_5.11.53___pm_1024.png",
+                    "thumb_1024_w": 1024,
+                    "thumb_1024_h": 314,
+                    "original_w": 1233,
+                    "original_h": 378,
+                    "thumb_tiny": "AwAOADDRI56frS5pDycUbfegBc+9GaNvvRigAHTp+tBpaQ0Af\/\/Z",
+                    "permalink": "https:\/\/opensearch.slack.com\/files\/U0782E70F24\/F084Y5D09SS\/screenshot_2024-12-14_at_5.11.53___pm.png",
+                    "permalink_public": "https:\/\/slack-files.com\/T01QQ0Q5GMA-F084Y5D09SS-c17a091a3d",
+                    "is_starred": false,
+                    "has_rich_preview": false,
+                    "file_access": "visible"
+                }
+            ],
+            "upload": false,
+            "user": "U0782E70F24",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "tGceP",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "I am running Opensearch Dashboards 2.17.1 and I created Observability Notebooks. I can see them in Saved Objects but not in the Notebooks space. Can you point me to what might be the issue."
+                    }]
+                }]
+            }],
+            "type": "message",
+            "ts": "1734189133.365319",
+            "client_msg_id": "17d48822-7338-45fa-b17f-0b50ecbb5e47",
+            "thread_ts": "1734189133.365319",
+            "reply_count": 6,
+            "reply_users_count": 4,
+            "latest_reply": "1736270418.169889",
+            "reply_users": [
+                "U0545TTFN2Z",
+                "U0548E41XB9",
+                "U068KUN0PDW",
+                "U0782E70F24"
+            ],
+            "is_locked": false,
+            "subscribed": false
+        },
+        {
+            "user": "U080N4CCSS2",
+            "type": "message",
+            "ts": "1734080708.393369",
+            "client_msg_id": "62acb41e-0afa-44fa-826a-b9c31e55159c",
+            "text": "Hi :slightly_smiling_face: , is it possible to change the axis labeling on a TSVB Time Series?",
+            "team": "T01QQ0Q5GMA",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "Ngdk8",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi "
+                        },
+                        {
+                            "type": "emoji",
+                            "name": "slightly_smiling_face",
+                            "unicode": "1f642"
+                        },
+                        {
+                            "type": "text",
+                            "text": " , is it possible to change the axis labeling on a TSVB Time Series?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U083Z8SPT6K",
+            "type": "message",
+            "ts": "1733997171.271689",
+            "client_msg_id": "4a2d4612-2eb6-4f46-ba7d-2ad794578a1d",
+            "text": "Hi,\nIs there a configuration to add an announcement banner on OpenSearch Dashboards using `opensearch_dashboards.yml`?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1733997171.271689",
+            "reply_count": 8,
+            "reply_users_count": 3,
+            "latest_reply": "1734031450.541479",
+            "reply_users": [
+                "U0545TTFN2Z",
+                "U063P38MWQ0",
+                "U083Z8SPT6K"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "\/JKc+",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi,\nIs there a configuration to add an announcement banner on OpenSearch Dashboards using "
+                        },
+                        {
+                            "type": "text",
+                            "text": "opensearch_dashboards.yml",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U082CDK9YV9",
+            "type": "message",
+            "ts": "1732548385.374719",
+            "edited": {
+                "user": "U082CDK9YV9",
+                "ts": "1732548420.000000"
+            },
+            "client_msg_id": "15798fe9-f753-4ba7-b59f-f08096b12ab4",
+            "text": "Hello, I'm testing out Opensearch 2.18 with the Discover functionality for PPL and I've noticed that it always runs into Internal Server errors (except if I don't use a single Pipe and just select \"source = logs*\"). Even if I just run \"source = logs* | head 10\" there is an internal Server error. On the Opensearch side it's always a NullPointerException\n(`2024-11-25T14:56:14,543][INFO`\n `][o.o.s.p.PPLService       ] [opensearch-cluster-master-2]` \n`[76771ece-0e69-47ca-ad08-615ace71f08e] Incoming request` \n`source=logs.mwil-sand-sand.* | where time >= *** and time <= *** |`\n `head 10 | stats count(null) | fields + null`\n`[2024-11-25T14:56:14,562][ERROR][o.o.s.p.r.RestPPLQueryAction]`\n `[opensearch-cluster-master-2] Error happened during query handling`\n`java.lang.NullPointerException: Cannot invoke \"java.lang.Comparable.compareTo(Object)\" because \"k1\" is null`\n\t`at java.base\/java.util.TreeMap.compare(TreeMap.java:1604) ~[?:?]`\n\t`at java.base\/java.util.TreeMap.addEntryToEmptyMap(TreeMap.java:811) ~[?:?]`\n\t`at java.base\/java.util.TreeMap.put(TreeMap.java:820) ~[?:?]`\n\t`at java.base\/java.util.TreeMap.putIfAbsent(TreeMap.java:574) ~[?:?]`\n\t`at org.opensearch.sql.planner.physical.collector.BucketCollector.collect(BucketCollector.java:53) ~[core-2.18.0.0.jar:?]`\n\t`at org.opensearch.sql.planner.physical.AggregationOperator.open(AggregationOperator.java:79) ~[core-2.18.0.0.jar:?]`\n\t`at java.base\/java.util.Collections$SingletonList.forEach(Collections.java:5186) ~[?:?]`\n\t`at org.opensearch.sql.planner.physical.PhysicalPlan.open(PhysicalPlan.java:29) ~[core-2.18.0.0.jar:?]`\n\n\t`at` \n`org.opensearch.sql.opensearch.executor.OpenSearchExecutionEngine.lambda$execute$0(OpenSearchExecutionEngine.java:49)`\n `[opensearch-2.18.0.0.jar:?]`\n\n\t`at` \n`org.opensearch.sql.opensearch.client.OpenSearchNodeClient.schedule(OpenSearchNodeClient.java:193)`\n `[opensearch-2.18.0.0.jar:?]`\n\n\t`at` \n`org.opensearch.sql.opensearch.executor.OpenSearchExecutionEngine.execute(OpenSearchExecutionEngine.java:43)`\n `[opensearch-2.18.0.0.jar:?]`\n\t`at org.opensearch.sql.executor.QueryService.lambda$executePlan$1(QueryService.java:66) [core-2.18.0.0.jar:?]`\n\t`at java.base\/java.util.Optional.ifPresentOrElse(Optional.java:198) [?:?]`\n\t`at org.opensearch.sql.executor.QueryService.executePlan(QueryService.java:63) [core-2.18.0.0.jar:?]`\n\t`at org.opensearch.sql.executor.QueryService.execute(QueryService.java:41) [core-2.18.0.0.jar:?]`\n\t`at org.opensearch.sql.executor.execution.QueryPlan.execute(QueryPlan.java:65) [core-2.18.0.0.jar:?]`\n\n\t`at` \n`org.opensearch.sql.opensearch.executor.OpenSearchQueryManager.lambda$submit$0(OpenSearchQueryManager.java:31)`\n `[opensearch-2.18.0.0.jar:?]`\n\n\t`at` \n`org.opensearch.sql.opensearch.executor.OpenSearchQueryManager.lambda$withCurrentContext$1(OpenSearchQueryManager.java:45)`\n `[opensearch-2.18.0.0.jar:?]`\n\n\t`at` \n`org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:946)`\n `[opensearch-2.18.0.jar:2.18.0]`\n\t`at java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]`\n\t`at java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]`\n\t`at java.base\/java.lang.Thread.run(Thread.java:1583) [?:?]`).\n\nIs this a problem in the implementation or perhaps with my data?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1732548385.374719",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1734022454.730679",
+            "reply_users": [
+                "U082CDK9YV9",
+                "U0545TTFN2Z"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "OASEJ",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hello, I'm testing out Opensearch 2.18 with the Discover functionality for PPL and I've noticed that it always runs into Internal Server errors (except if I don't use a single Pipe and just select \"source = logs*\"). Even if I just run \"source = logs* | head 10\" there is an internal Server error. On the Opensearch side it's always a NullPointerException\n("
+                        },
+                        {
+                            "type": "text",
+                            "text": "2024-11-25T14:56:14,543][INFO",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " ][o.o.s.p.PPLService       ] [opensearch-cluster-master-2] ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "[76771ece-0e69-47ca-ad08-615ace71f08e] Incoming request ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "source=logs.mwil-sand-sand.* | where time >= *** and time <= *** |",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " head 10 | stats count(null) | fields + null",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "[2024-11-25T14:56:14,562][ERROR][o.o.s.p.r.RestPPLQueryAction]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-cluster-master-2] Error happened during query handling",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "java.lang.NullPointerException: Cannot invoke \"java.lang.Comparable.compareTo(Object)\" because \"k1\" is null",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.TreeMap.compare(TreeMap.java:1604) ~[?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.TreeMap.addEntryToEmptyMap(TreeMap.java:811) ~[?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.TreeMap.put(TreeMap.java:820) ~[?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.TreeMap.putIfAbsent(TreeMap.java:574) ~[?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.planner.physical.collector.BucketCollector.collect(BucketCollector.java:53) ~[core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.planner.physical.AggregationOperator.open(AggregationOperator.java:79) ~[core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.Collections$SingletonList.forEach(Collections.java:5186) ~[?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.planner.physical.PhysicalPlan.open(PhysicalPlan.java:29) ~[core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "org.opensearch.sql.opensearch.executor.OpenSearchExecutionEngine.lambda$execute$0(OpenSearchExecutionEngine.java:49)",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "org.opensearch.sql.opensearch.client.OpenSearchNodeClient.schedule(OpenSearchNodeClient.java:193)",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "org.opensearch.sql.opensearch.executor.OpenSearchExecutionEngine.execute(OpenSearchExecutionEngine.java:43)",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.executor.QueryService.lambda$executePlan$1(QueryService.java:66) [core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.Optional.ifPresentOrElse(Optional.java:198) [?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.executor.QueryService.executePlan(QueryService.java:63) [core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.executor.QueryService.execute(QueryService.java:41) [core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat org.opensearch.sql.executor.execution.QueryPlan.execute(QueryPlan.java:65) [core-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "org.opensearch.sql.opensearch.executor.OpenSearchQueryManager.lambda$submit$0(OpenSearchQueryManager.java:31)",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "org.opensearch.sql.opensearch.executor.OpenSearchQueryManager.lambda$withCurrentContext$1(OpenSearchQueryManager.java:45)",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-2.18.0.0.jar:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat ",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "org.opensearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:946)",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": " [opensearch-2.18.0.jar:2.18.0]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) [?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) [?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\tat java.base\/java.lang.Thread.run(Thread.java:1583) [?:?]",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": ").\n\nIs this a problem in the implementation or perhaps with my data?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U07MT2TE3U6",
+            "type": "message",
+            "ts": "1731431451.976629",
+            "client_msg_id": "75dffe35-0944-4ab7-8c67-d11d7b22acbb",
+            "text": "Hello, yesterday I was testing out Workspaces (I like it), I noticed I couldn't get workspaces to work like tenants where I could provision roles and access permissions and map them. Any plans for this in the future?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1731431451.976629",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1731529458.747859",
+            "reply_users": [
+                "U051J9LBNE9"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "92HMo",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "Hello, yesterday I was testing out Workspaces (I like it), I noticed I couldn't get workspaces to work like tenants where I could provision roles and access permissions and map them. Any plans for this in the future?"
+                    }]
+                }]
+            }],
+            "reactions": [{
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U05EM49FDBJ"
+                ],
+                "count": 1
+            }]
+        },
+        {
+            "user": "U052HQGMLF2",
+            "type": "message",
+            "ts": "1730797011.678409",
+            "client_msg_id": "8a9fbffc-54c8-4ac4-bf21-75b0e0b65b8b",
+            "text": "Hello\nI am facing a kind-of blocking issue (for us) on an Opensearch dashboard instance\n```On opensearch dashboard I got this error null_pointer_exception\nCannot invoke \"org.opensearch.search.aggregations.InternalAggregations.getSerializedSize()\" because \"reducePhase.aggregations\" is null\nError: Internal Server Error```\nSo impossible to make a single search :disappointed:\nI did not see errors on the logs except this one in opensearch dashboard logs\n```\"res\":{\"statusCode\":500,\"responseTime\":78,\"contentLength\":9},\"message\":\"POST \/internal\/search\/opensearch 500 78ms - 9.0B\"}```\non master and data node logs there are no errors related to that except\n```level=error ts=2024-11-05T08:54:31.189720321Z caller=indices.go:1126 err=\"HTTP Request failed with code 403\"\nlevel=warn ts=2024-11-05T08:54:31.189786421Z caller=indices.go:1207 msg=\"failed to fetch and decode index stats\" err=\"HTTP Request failed with code 403\"```\nwhat could the cause here? where I can get more details about the error?\nI am using a 2.4.0 version",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1730797011.678409",
+            "reply_count": 3,
+            "reply_users_count": 2,
+            "latest_reply": "1732569239.449619",
+            "reply_users": [
+                "U0545TTFN2Z",
+                "U052HQGMLF2"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "nb9tz",
+                "elements": [{
+                        "type": "rich_text_section",
+                        "elements": [{
+                            "type": "text",
+                            "text": "Hello\nI am facing a kind-of blocking issue (for us) on an Opensearch dashboard instance\n"
+                        }]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [{
+                            "type": "text",
+                            "text": "On opensearch dashboard I got this error null_pointer_exception\nCannot invoke \"org.opensearch.search.aggregations.InternalAggregations.getSerializedSize()\" because \"reducePhase.aggregations\" is null\nError: Internal Server Error"
+                        }],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [{
+                                "type": "text",
+                                "text": "So impossible to make a single search "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "disappointed",
+                                "unicode": "1f61e"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nI did not see errors on the logs except this one in opensearch dashboard logs\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [{
+                            "type": "text",
+                            "text": "\"res\":{\"statusCode\":500,\"responseTime\":78,\"contentLength\":9},\"message\":\"POST \/internal\/search\/opensearch 500 78ms - 9.0B\"}"
+                        }],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [{
+                            "type": "text",
+                            "text": "on master and data node logs there are no errors related to that except\n"
+                        }]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [{
+                            "type": "text",
+                            "text": "level=error ts=2024-11-05T08:54:31.189720321Z caller=indices.go:1126 err=\"HTTP Request failed with code 403\"\nlevel=warn ts=2024-11-05T08:54:31.189786421Z caller=indices.go:1207 msg=\"failed to fetch and decode index stats\" err=\"HTTP Request failed with code 403\""
+                        }],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [{
+                            "type": "text",
+                            "text": "what could the cause here? where I can get more details about the error?\nI am using a 2.4.0 version"
+                        }]
+                    }
+                ]
+            }]
+        },
+        {
+            "user": "U07TXF52FTQ",
+            "type": "message",
+            "ts": "1730440342.314969",
+            "client_msg_id": "06c1bc90-fc64-4071-ae55-19f77ca42f45",
+            "text": "Hi, are there any docs or examples on developing embeddable dashboard plugins?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1730440342.314969",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1732308545.892489",
+            "reply_users": [
+                "U0545TTFN2Z"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "aVBxp",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "Hi, are there any docs or examples on developing embeddable dashboard plugins?"
+                    }]
+                }]
+            }]
+        },
+        {
+            "user": "U07TE2WNGAE",
+            "type": "message",
+            "ts": "1729878694.652209",
+            "client_msg_id": "fc51b834-5f57-4ff9-880a-63ad91e6d0b2",
+            "text": "Hello there. I have an ec2 with opensearch dashboard installed and I'm trying to configure two aws opensearch domains\nHow can I have the two aws opensearch domains active ? I only see one opensearch domain.\nis this even possible? I want to have one dashboard with multiple opensearch domains so I would be login in one dashboard and then select the domains.",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1729878694.652209",
+            "reply_count": 13,
+            "reply_users_count": 2,
+            "latest_reply": "1730497907.683909",
+            "reply_users": [
+                "U07TE2WNGAE",
+                "U051GBS8153"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "q3Yfl",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "Hello there. I have an ec2 with opensearch dashboard installed and I'm trying to configure two aws opensearch domains\nHow can I have the two aws opensearch domains active ? I only see one opensearch domain.\nis this even possible? I want to have one dashboard with multiple opensearch domains so I would be login in one dashboard and then select the domains."
+                    }]
+                }]
+            }]
+        },
+        {
+            "text": "Hi all, I'd like to make every Success value to be green and every Fail value to be red in this vertical bar chart. Is that possible (maybe in uiStateJson? Is there a better way to accomplish this?",
+            "files": [{
+                "id": "F07TMJESX60",
+                "created": 1729872945,
+                "timestamp": 1729872945,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U06E7HCGDC4",
+                "user_team": "T01QQ0Q5GMA",
+                "editable": false,
+                "size": 95801,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T01QQ0Q5GMA-F07TMJESX60\/image.png",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T01QQ0Q5GMA-F07TMJESX60\/download\/image.png",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_64.png",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_80.png",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_360.png",
+                "thumb_360_w": 360,
+                "thumb_360_h": 295,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_480.png",
+                "thumb_480_w": 480,
+                "thumb_480_h": 393,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_160.png",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_720.png",
+                "thumb_720_w": 720,
+                "thumb_720_h": 590,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_800.png",
+                "thumb_800_w": 800,
+                "thumb_800_h": 655,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_960.png",
+                "thumb_960_w": 960,
+                "thumb_960_h": 786,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T01QQ0Q5GMA-F07TMJESX60-981c4a735e\/image_1024.png",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 839,
+                "original_w": 1548,
+                "original_h": 1268,
+                "thumb_tiny": "AwAnADDP3H1oyaDSUxC0lFFAE9vCJVYnPB7UTxCMgDPTvT7UkI2O5pLlssM+lKzuV0IVZVGCgb3NL5i\/88lphpKZJJ5i\/wDPJfzo8xf+eS1HRQBctgZFbYqKAe+aju1KuobHTtU1iMRsfU1Hff6xPpQFkQoI8fOWB9qXEH96T8hUR60UAS7YD0kf\/vmgrB2kb\/vmoh1pKALMM4jTbkjntTJ5BIwIJOB3qI0UrDv0P\/\/Z",
+                "permalink": "https:\/\/opensearch.slack.com\/files\/U06E7HCGDC4\/F07TMJESX60\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T01QQ0Q5GMA-F07TMJESX60-7df9995f15",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }],
+            "upload": false,
+            "user": "U06E7HCGDC4",
+            "display_as_bot": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "ckRnW",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "Hi all, I'd like to make every Success value to be green and every Fail value to be red in this vertical bar chart. Is that possible (maybe in uiStateJson? Is there a better way to accomplish this?"
+                    }]
+                }]
+            }],
+            "type": "message",
+            "ts": "1729872983.450909",
+            "client_msg_id": "725da4bd-91ec-4e58-b19e-4f05157db8c9"
+        },
+        {
+            "user": "U05GAS8C350",
+            "type": "message",
+            "ts": "1729812569.280669",
+            "client_msg_id": "cd6f1f31-f7a2-466a-b60c-c50b6e0c8112",
+            "text": "Hi, can I know if there are any different ways to check if an OSD cluster is valid other than using the api call `<http:\/\/localhost:5601\/api\/status>`\nPlease check the related issue <https:\/\/github.com\/opensearch-project\/opensearch-build\/issues\/5117#issuecomment-2423353715|here>",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1729812569.280669",
+            "reply_count": 22,
+            "reply_users_count": 5,
+            "latest_reply": "1732595855.557029",
+            "reply_users": [
+                "U05GAS8C350",
+                "U051GERRSJH",
+                "U0545TTFN2Z",
+                "U051L7HCMU2",
+                "U05B8G14PL2"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "attachments": [{
+                "id": 1,
+                "footer_icon": "https:\/\/slack.github.com\/static\/img\/favicon-neutral.png",
+                "ts": 1729292969,
+                "color": "24292f",
+                "bot_id": "B051ML2LDRS",
+                "app_unfurl_url": "https:\/\/github.com\/opensearch-project\/opensearch-build\/issues\/5117#issuecomment-2423353715",
+                "is_app_unfurl": true,
+                "app_id": "A01BP7R4KNY",
+                "fallback": "Comment on #5117 [Bug]: Validation framework doesnot validate OSD bootstrapping",
+                "text": "Hi <https:\/\/github.com\/AMoo-Miki|@AMoo-Miki>  \nDo you know a better way to test if Dashboards is valid? We are only using one validation for OSD which is `<http:\/\/localhost:5601\/api\/status>`  \n<https:\/\/github.com\/opensearch-project\/opensearch-build\/blob\/main\/src\/validation_workflow\/api_test_cases.py#L36|https:\/\/github.com\/opensearch-project\/opensearch-build\/blob\/main\/src\/validation_workflow\/api_test_cases.py#L36>",
+                "title": "Comment on #5117 [Bug]: Validation framework doesnot validate OSD bootstrapping",
+                "title_link": "https:\/\/github.com\/opensearch-project\/opensearch-build\/issues\/5117#issuecomment-2423353715",
+                "footer": "<https:\/\/github.com\/opensearch-project\/opensearch-build|opensearch-project\/opensearch-build>",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }],
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "SPsWS",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi, can I know if there are any different ways to check if an OSD cluster is valid other than using the api call "
+                        },
+                        {
+                            "type": "link",
+                            "url": "http:\/\/localhost:5601\/api\/status",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\nPlease check the related issue "
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/github.com\/opensearch-project\/opensearch-build\/issues\/5117#issuecomment-2423353715",
+                            "text": "here"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U051NKKT6JF",
+            "type": "message",
+            "ts": "1729077110.165719",
+            "client_msg_id": "2093948a-ee4b-48e1-8f55-fb80c945361f",
+            "text": "I see that the OpenSearch helm chart <https:\/\/github.com\/opensearch-project\/helm-charts\/blob\/d4fd2581b3d1a23f74557e3fb5d298f7e0fea2cd\/charts\/opensearch-dashboards\/values.yaml#L194C1-L196C19|sets default values for limits on CPU and memory>. Many argue that one should not set limits:\n<https:\/\/home.robusta.dev\/blog\/stop-using-cpu-limits>\n\nAny chance that the project can remove this from the helm chart?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1729077110.165719",
+            "reply_count": 28,
+            "reply_users_count": 3,
+            "latest_reply": "1729154652.481149",
+            "reply_users": [
+                "U061MNU7DK9",
+                "U051NKKT6JF",
+                "U075NAEHDJ8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "attachments": [{
+                "image_url": "https:\/\/cdn.prod.website-files.com\/633e9bad8f71dfa75ae4c9db\/6357fcc4b3a1634d362a408a_CPU%20Limits.webp",
+                "image_width": 1140,
+                "image_height": 1284,
+                "image_bytes": 73128,
+                "from_url": "https:\/\/home.robusta.dev\/blog\/stop-using-cpu-limits",
+                "id": 1,
+                "original_url": "https:\/\/home.robusta.dev\/blog\/stop-using-cpu-limits",
+                "fallback": "For the Love of God, Stop Using CPU Limits on Kubernetes (Updated) | Robusta",
+                "text": "Many people think you need CPU limits on Kubernetes but this isn't true. In most cases, Kubernetes CPU limits do more harm than help. In fact, they're the number one cause of Kubernetes CPU throttling.",
+                "title": "For the Love of God, Stop Using CPU Limits on Kubernetes (Updated) | Robusta",
+                "title_link": "https:\/\/home.robusta.dev\/blog\/stop-using-cpu-limits",
+                "service_name": "home.robusta.dev"
+            }],
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "3VkHv",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "I see that the OpenSearch helm chart "
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/github.com\/opensearch-project\/helm-charts\/blob\/d4fd2581b3d1a23f74557e3fb5d298f7e0fea2cd\/charts\/opensearch-dashboards\/values.yaml#L194C1-L196C19",
+                            "text": "sets default values for limits on CPU and memory"
+                        },
+                        {
+                            "type": "text",
+                            "text": ". Many argue that one should not set limits:\n"
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/home.robusta.dev\/blog\/stop-using-cpu-limits"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n\nAny chance that the project can remove this from the helm chart?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U07MT2TE3U6",
+            "type": "message",
+            "ts": "1729023141.626659",
+            "client_msg_id": "05aefdc9-771d-488c-9e2a-64f1904b2757",
+            "text": "So, is it correct that there isn't a way currently to disable items for example index management for users. Other than the dashboard only role?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1729023141.626659",
+            "reply_count": 2,
+            "reply_users_count": 2,
+            "latest_reply": "1729269651.475649",
+            "reply_users": [
+                "U051J9LBNE9",
+                "U07MT2TE3U6"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "VtvFu",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "So, is it correct that there isn't a way currently to disable items for example index management for users. Other than the dashboard only role?"
+                    }]
+                }]
+            }]
+        },
+        {
+            "user": "U07N79MLJA2",
+            "type": "message",
+            "ts": "1728990280.650739",
+            "client_msg_id": "668b1cf7-7816-4601-91e6-79458d245978",
+            "text": "There seems to be a bug in the route definitions of the alerting-dashboards plugin (AD).\nI would like to work on a PR if thats the case, thus i would appreciate feedback on github.\n<https:\/\/github.com\/opensearch-project\/alerting-dashboards-plugin\/issues\/1126#issue-2588403787>\n<https:\/\/opensearch.slack.com\/archives\/C01QENNTGUD\/p1728832448242149>",
+            "team": "T01QQ0Q5GMA",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "eZ7li",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "There seems to be a bug in the route definitions of the alerting-dashboards plugin (AD).\nI would like to work on a PR if thats the case, thus i would appreciate feedback on github.\n"
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/github.com\/opensearch-project\/alerting-dashboards-plugin\/issues\/1126#issue-2588403787"
+                        },
+                        {
+                            "type": "text",
+                            "text": "\n"
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/opensearch.slack.com\/archives\/C01QENNTGUD\/p1728832448242149"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U0545TTFN2Z",
+            "type": "message",
+            "ts": "1728946741.907999",
+            "client_msg_id": "548942f7-d121-476a-93c9-df7c8d18489c",
+            "text": "<@U07P93D901F>",
+            "team": "T01QQ0Q5GMA",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "3Jqrc",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "user",
+                        "user_id": "U07P93D901F"
+                    }]
+                }]
+            }]
+        },
+        {
+            "subtype": "thread_broadcast",
+            "user": "U06GR5Z8AJY",
+            "thread_ts": "1728470415.601559",
+            "root": {
+                "user": "U07R242117U",
+                "type": "message",
+                "ts": "1728470415.601559",
+                "edited": {
+                    "user": "U07R242117U",
+                    "ts": "1728549898.000000"
+                },
+                "client_msg_id": "46709b9b-1950-4dce-83a5-c90f37a0c0f7",
+                "text": "Hi everyone,\n\nI'm working on a dashboard visualization, and I need to filter out certain values using a regular expression. Specifically, I\u2019m trying to match patterns like this:\nTEST-[a-z0-9]+\/[a-zA-Z0-9-]+-tas-core-[a-z0-9]+-[a-z][a-z0-9]+.\n\nThe end goal is to visualize this filtered data as a line graph on the dashboard. However, I'm struggling with how to implement this in the visState JSON section of the dashboard defination.\nWould anyone be able to share the correct syntax or provide any guidance on how I can apply this regex to display the data properly?\nOSD Version : 2.12.0\nAny help or suggestions would be greatly appreciated! Thanks in advance. :blush:",
+                "team": "T01QQ0Q5GMA",
+                "thread_ts": "1728470415.601559",
+                "reply_count": 1,
+                "reply_users_count": 1,
+                "latest_reply": "1728892814.775579",
+                "reply_users": [
+                    "U06GR5Z8AJY"
+                ],
+                "is_locked": false,
+                "subscribed": false,
+                "blocks": [{
+                    "type": "rich_text",
+                    "block_id": "mSebH",
+                    "elements": [{
+                        "type": "rich_text_section",
+                        "elements": [{
+                                "type": "text",
+                                "text": "Hi everyone,\n\nI'm working on a dashboard visualization, and I need to filter out certain values using a regular expression. Specifically, I\u2019m trying to match patterns like this:\nTEST-[a-z0-9]+\/[a-zA-Z0-9-]+-tas-core-[a-z0-9]+-[a-z][a-z0-9]+.\n\nThe end goal is to visualize this filtered data as a line graph on the dashboard. However, I'm struggling with how to implement this in the visState JSON section of the dashboard defination.\nWould anyone be able to share the correct syntax or provide any guidance on how I can apply this regex to display the data properly?\nOSD Version : 2.12.0\nAny help or suggestions would be greatly appreciated! Thanks in advance. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "blush",
+                                "unicode": "1f60a"
+                            }
+                        ]
+                    }]
+                }]
+            },
+            "type": "message",
+            "ts": "1728892814.775579",
+            "edited": {
+                "user": "U06GR5Z8AJY",
+                "ts": "1729012218.000000"
+            },
+            "client_msg_id": "b7fedf72-ff49-4b30-be34-48741a5afade",
+            "text": "Hi all,\nAny help on how to use regex expressions instead of simple wildcards for filters on  *visualizations* in Opensearch Dashboards?\n\n<@U054H1QR4CF> Hi, can you help route this query to the right point of contact?",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "ehXiz",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi all,\nAny help on how to use regex expressions instead of simple wildcards for filters on  "
+                        },
+                        {
+                            "type": "text",
+                            "text": "visualizations ",
+                            "style": {
+                                "bold": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "in Opensearch Dashboards?\n\n"
+                        },
+                        {
+                            "type": "user",
+                            "user_id": "U054H1QR4CF"
+                        },
+                        {
+                            "type": "text",
+                            "text": " Hi, can you help route this query to the right point of contact?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U064SGXJYLQ",
+            "type": "message",
+            "ts": "1728835904.693759",
+            "client_msg_id": "287102cf-044f-453d-b937-750e22c7cb0b",
+            "text": "Hi @Wazuh Community,\nI'm currently working on creating a custom OpenSearch plugin, and I want to add a link to the TheHive5 dashboard within the OpenSearch interface. However, I'm unsure of where to start. I have gone through the\ndocumentation (<https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/plugins\/#install>), but it hasn't worked for me.\nI've attached a file listing all the files in my plugin. Could anyone guide\nme on which specific code file I need to modify to add the link to\nTheHive5 dashboard? Additionally, I would really appreciate any\ndeveloper guides or advice on how to correctly implement this.",
+            "team": "T01QQ0Q5GMA",
+            "attachments": [{
+                "from_url": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/plugins\/#install",
+                "service_icon": "https:\/\/opensearch.org\/docs\/latest\/favicon.ico",
+                "ts": 1728674923,
+                "id": 1,
+                "original_url": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/plugins\/#install",
+                "fallback": "OpenSearch Documentation: Installing plugins",
+                "text": "Installing plugins",
+                "title": "Installing plugins",
+                "title_link": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/plugins\/#install",
+                "service_name": "OpenSearch Documentation"
+            }],
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "sdzTw",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi @Wazuh Community,\nI'm currently working on creating a custom OpenSearch plugin, and I want to add a link to the TheHive5 dashboard within the OpenSearch interface. However, I'm unsure of where to start. I have gone through the\ndocumentation ("
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/plugins\/#install"
+                        },
+                        {
+                            "type": "text",
+                            "text": "), but it hasn't worked for me.\nI've attached a file listing all the files in my plugin. Could anyone guide\nme on which specific code file I need to modify to add the link to\nTheHive5 dashboard? Additionally, I would really appreciate any\ndeveloper guides or advice on how to correctly implement this."
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U07N79MLJA2",
+            "type": "message",
+            "ts": "1728832448.242149",
+            "client_msg_id": "24b57691-cf17-423e-b8a6-b503e2ed7c4a",
+            "text": "Is anyone actually using Alerting on top of anomaly detectors successfully ?\nI can't figure out whats going on in our case. We have some detectors setup but i can't select a feature when setting up a trigger when creating a monitor. Im stuck at \"No features have been added to this anomaly detector...\". Checking the network tab it seems the plugin tries to get the detector via `&lt;&gt;\/api\/alerting\/detectors\/:id?startTime=XX&amp;endTime=YY`  but the endpoint doesn't seem to support startTime (?) no matter what timestamp i try i always get\n{\n  \"statusCode\": 400,\n  \"error\": \"Bad Request\",\n  \"message\": \"[request query.startTime]: definition for this key is missing\"\n}\nLeaving out the startTime query returns the detectors...\nI can reproduce this on the <https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/install-opensearch\/docker\/> minimal docker compose setup from the docs on 2.17.X.\nAm i missing something here ?",
+            "team": "T01QQ0Q5GMA",
+            "attachments": [{
+                "from_url": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/install-opensearch\/docker\/",
+                "ts": 1728674923,
+                "service_icon": "https:\/\/opensearch.org\/docs\/latest\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/install-opensearch\/docker\/",
+                "fallback": "OpenSearch Documentation: Docker",
+                "text": "Docker",
+                "title": "Docker",
+                "title_link": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/install-opensearch\/docker\/",
+                "service_name": "OpenSearch Documentation"
+            }],
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "FvFmD",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Is anyone actually using Alerting on top of anomaly detectors successfully ?\nI can't figure out whats going on in our case. We have some detectors setup but i can't select a feature when setting up a trigger when creating a monitor. Im stuck at \"No features have been added to this anomaly detector...\". Checking the network tab it seems the plugin tries to get the detector via "
+                        },
+                        {
+                            "type": "text",
+                            "text": "<>\/api\/alerting\/detectors\/:id?startTime=XX&endTime=YY",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "  but the endpoint doesn't seem to support startTime (?) no matter what timestamp i try i always get\n{\n  \"statusCode\": 400,\n  \"error\": \"Bad Request\",\n  \"message\": \"[request query.startTime]: definition for this key is missing\"\n}\nLeaving out the startTime query returns the detectors...\nI can reproduce this on the "
+                        },
+                        {
+                            "type": "link",
+                            "url": "https:\/\/opensearch.org\/docs\/latest\/install-and-configure\/install-opensearch\/docker\/"
+                        },
+                        {
+                            "type": "text",
+                            "text": " minimal docker compose setup from the docs on 2.17.X.\nAm i missing something here ?"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "user": "U05461F241W",
+            "type": "message",
+            "ts": "1728472205.354409",
+            "edited": {
+                "user": "U05461F241W",
+                "ts": "1728472364.000000"
+            },
+            "client_msg_id": "c797fdd1-56f3-46da-b4a8-1a010ce6c253",
+            "text": "Hi Team\n\nOSD Version : 2.4.0\n\nI have small doubt regarding opensearch dashboards server, how many concurrent requests it can handle ?\nis there a config for it ?\nCurrent if i call my API for load testing on `search`\nWhen request per second count cross 50, OSD server is not responding\n\nWhat might be the issue ?",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1728472205.354409",
+            "reply_count": 3,
+            "reply_users_count": 3,
+            "latest_reply": "1732310198.292279",
+            "reply_users": [
+                "U05461F241W",
+                "U0545TTFN2Z",
+                "U05B8G14PL2"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "mDSHb",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi Team\n\nOSD Version : 2.4.0\n\nI have small doubt regarding opensearch dashboards server, how many concurrent requests it can handle ?\nis there a config for it ?\nCurrent if i call my API for load testing on "
+                        },
+                        {
+                            "type": "text",
+                            "text": "search",
+                            "style": {
+                                "code": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": "\nWhen request per second count cross 50, OSD server is not responding\n\nWhat might be the issue ?"
+                        }
+                    ]
+                }]
+            }],
+            "is_beyond_free_limit": true
+        },
+        {
+            "user": "U07R242117U",
+            "type": "message",
+            "ts": "1728470415.601559",
+            "edited": {
+                "user": "U07R242117U",
+                "ts": "1728549898.000000"
+            },
+            "client_msg_id": "46709b9b-1950-4dce-83a5-c90f37a0c0f7",
+            "text": "Hi everyone,\n\nI'm working on a dashboard visualization, and I need to filter out certain values using a regular expression. Specifically, I\u2019m trying to match patterns like this:\nTEST-[a-z0-9]+\/[a-zA-Z0-9-]+-tas-core-[a-z0-9]+-[a-z][a-z0-9]+.\n\nThe end goal is to visualize this filtered data as a line graph on the dashboard. However, I'm struggling with how to implement this in the visState JSON section of the dashboard defination.\nWould anyone be able to share the correct syntax or provide any guidance on how I can apply this regex to display the data properly?\nOSD Version : 2.12.0\nAny help or suggestions would be greatly appreciated! Thanks in advance. :blush:",
+            "team": "T01QQ0Q5GMA",
+            "thread_ts": "1728470415.601559",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1728892814.775579",
+            "reply_users": [
+                "U06GR5Z8AJY"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "mSebH",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                            "type": "text",
+                            "text": "Hi everyone,\n\nI'm working on a dashboard visualization, and I need to filter out certain values using a regular expression. Specifically, I\u2019m trying to match patterns like this:\nTEST-[a-z0-9]+\/[a-zA-Z0-9-]+-tas-core-[a-z0-9]+-[a-z][a-z0-9]+.\n\nThe end goal is to visualize this filtered data as a line graph on the dashboard. However, I'm struggling with how to implement this in the visState JSON section of the dashboard defination.\nWould anyone be able to share the correct syntax or provide any guidance on how I can apply this regex to display the data properly?\nOSD Version : 2.12.0\nAny help or suggestions would be greatly appreciated! Thanks in advance. "
+                        },
+                        {
+                            "type": "emoji",
+                            "name": "blush",
+                            "unicode": "1f60a"
+                        }
+                    ]
+                }]
+            }],
+            "is_beyond_free_limit": true
+        },
+        {
+            "user": "U06KA29V1GA",
+            "type": "message",
+            "ts": "1728065515.728559",
+            "client_msg_id": "b5cfbc6c-34a5-49d4-89be-b24b7ef3127c",
+            "text": "I also looked at the S3 Data Source but it involves a lot of Glue setup and such. I found some docs for that but they seem to be scattered across multiple repos and are hard to follow. Any high level overview of how to set up an S3 Data Source start to finish?",
+            "team": "T01QQ0Q5GMA",
+            "blocks": [{
+                "type": "rich_text",
+                "block_id": "YcQYl",
+                "elements": [{
+                    "type": "rich_text_section",
+                    "elements": [{
+                        "type": "text",
+                        "text": "I also looked at the S3 Data Source but it involves a lot of Glue setup and such. I found some docs for that but they seem to be scattered across multiple repos and are hard to follow. Any high level overview of how to set up an S3 Data Source start to finish?"
+                    }]
+                }]
+            }],
+            "is_beyond_free_limit": true
+        }
+    ],
+    "has_more": false,
+    "is_limited": true,
+    "pin_count": 0,
+    "channel_actions_ts": null,
+    "channel_actions_count": 0
+}
